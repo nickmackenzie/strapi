@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_artworks",
+  "info": {
+    "singularName": "featured-artwork",
+    "pluralName": "featured-artworks",
+    "displayName": "Featured Artwork"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
